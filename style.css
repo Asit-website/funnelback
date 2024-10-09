@@ -1,0 +1,1930 @@
+@font-face {
+    font-family: "gilroy-regular";
+    src: local("gilroy-regular"),
+        url("./gilro/Gilroy-Regular.ttf") format("truetype")
+}
+
+@font-face {
+    font-family: "gilroy-medium";
+    src: local("gilroy-medium"),
+        url("./gilro/Gilroy-Medium.ttf") format("truetype")
+}
+
+
+@font-face {
+    font-family: "gilroy-semibold";
+    src: local("gilroy-semibold"),
+        url("./gilro/Gilroy-SemiBold.ttf") format("truetype")
+}
+
+@font-face {
+    font-family: "gilroy-bold";
+    src: local("gilroy-bold"),
+        url("./gilro/Gilroy-Bold.ttf") format("truetype")
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+#madfish-funnel-page .madfish-top-header p {
+    background-color: #15202E;
+    color: #fff;
+    font-family: "gilroy-semibold" !important;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.4px;
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 08px;
+}
+
+#madfish-funnel-page .madfish-main-header {
+    max-width: 1440px;
+    width: 100%;
+    padding: 14px 60px;
+    display: block;
+    margin: auto;
+}
+
+#madfish-funnel-page .madfish-header-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 86px;
+}
+
+#madfish-funnel-page .madfish-header-logos img {
+    max-width: 185px;
+    width: 100%;
+}
+
+#madfish-funnel-page .madfish-banner {
+    background-image: url("./image/hero-banner.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#madfish-funnel-page .madfish-container {
+    max-width: 1440px;
+    width: 100%;
+    padding: 80px 60px;
+    display: block;
+    margin: auto;
+}
+
+#madfish-funnel-page .madfish-content {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#madfish-funnel-page .madfish-main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 22px;
+}
+
+#madfish-funnel-page .madfish-main-content h1 {
+    font-size: 55px;
+    font-weight: 400;
+    line-height: 60px;
+    color: #fff;
+    max-width: 16em;
+    width: 100%;
+    font-family: "gilroy-medium" !important;
+    letter-spacing: -0.5%;
+}
+
+#madfish-funnel-page .madfish-main-content p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #ffffff;
+    font-weight: 400 !important;
+    max-width: 55em;
+    width: 100%;
+    font-family: "gilroy-regular" !important;
+    opacity: .9;
+}
+
+#madfish-funnel-page .madfish-main-content span {
+    color: #F79518;
+    font-family: "gilroy-bold" !important;
+}
+
+#madfish-funnel-page .button-group {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#madfish-funnel-page .button-group button {
+    width: 230px;
+    cursor: pointer;
+    background-color: #F79518;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    justify-content: center;
+    border-radius: 6px;
+    font-family: "gilroy-bold" !important;
+}
+
+#madfish-funnel-page .button-group button span {
+    position: relative;
+    top: 5px;
+}
+
+#madfish-funnel-page .madfish-container2 {
+    max-width: 1440px;
+    width: 100%;
+    padding: 60px 80px 0px 80px;
+    display: block;
+    margin: auto;
+
+}
+
+#madfish-funnel-page .madfish-content2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#madfish-funnel-page .madfish-main-content2 p {
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #15202E;
+    font-family: "gilroy-regular" !important;
+    opacity: 70%;
+    text-transform: uppercase;
+
+}
+
+#madfish-funnel-page .slider-images::after {
+    position: absolute;
+    z-index: -1;
+    border-bottom: 1px solid #080A471A;
+    content: "";
+    inset: 0;
+    opacity: 10%;
+}
+
+#madfish-funnel-page .slider-images {
+    padding-bottom: 40px;
+    position: relative;
+    isolation: isolate;
+
+}
+
+#madfish-funnel-page .slider-client-images {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+#madfish-funnel-page .slides-img img {
+    max-width: 117px;
+    width: 100%;
+}
+
+#madfish-funnel-page .madfish-container3 {
+    max-width: 1440px;
+    width: 100%;
+    display: block;
+    margin: auto;
+    padding: 70px 60px;
+}
+
+#madfish-funnel-page .madfish-content3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+#madfish-funnel-page .madfish-main-content3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 24px;
+}
+
+#madfish-funnel-page .madfish-main-content3 h2 {
+    font-family: 'Gilroy-Medium';
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: -0.05em;
+    text-align: center;
+    color: #15202E;
+}
+
+#madfish-funnel-page .madfish-main-content3 p::after {
+    inset: 0;
+    content: "";
+    position: absolute;
+    z-index: -1;
+    opacity: 75%;
+    color: #15202E;
+}
+
+#madfish-funnel-page .madfish-main-content3 p {
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: -0.02em;
+    text-align: center;
+
+    position: relative;
+    isolation: isolate;
+}
+
+#madfish-funnel-page .madfish-main-content3 span {
+    font-family: 'Gilroy-Bold';
+    color: #F79518;
+}
+
+
+#madfish-funnel-page .madfish-cards {}
+
+#madfish-funnel-page .madfish-cards-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+#madfish-funnel-page .madfish-card-content3 {
+    background-color: #EDEEF9;
+    /* width: 294px; */
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: start;
+}
+
+#madfish-funnel-page .madfish-card-content3 h2 {
+    font-family: Gilroy-SemiBold;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: -0.05em;
+    color: #000;
+    max-width: 8em;
+    width: 100%;
+}
+
+
+#madfish-funnel-page .madfish-card-content3 p::after {
+    inset: 0;
+    content: "";
+    position: absolute;
+    z-index: -1;
+    opacity: 75%;
+    color: #15202E;
+}
+
+#madfish-funnel-page .madfish-card-content3 p {
+    font-family: Gilroy-Regular;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: -0.01em;
+    isolation: isolate;
+    position: relative;
+}
+
+#madfish-funnel-page .madfish-container4 {
+    max-width: 1440px;
+    width: 100%;
+    padding: 60px 70px;
+    display: block;
+    margin: auto;
+}
+
+#madfish-funnel-page .madfish-content4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 35px;
+}
+
+#madfish-funnel-page .madfish-main-content4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#madfish-funnel-page .madfish-main-content4 h2 {
+    font-family: Gilroy-Bold;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: -0.05em;
+    color: #15202E;
+
+}
+
+#madfish-funnel-page .madfish-main-content4 span {
+    color: #F79518;
+}
+
+#madfish-funnel-page .madfish-main-content4 p {
+    font-family: "gilroy-regular" !important;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: -0.02em;
+    position: relative;
+    isolation: isolate;
+    max-width: 60em;
+    width: 100%;
+}
+
+#madfish-funnel-page .madfish-card-plan {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+}
+
+#madfish-funnel-page .madfish-card-main-plan {
+    width: 398px;
+    border: 1px solid #D6D6D8;
+    height: 800px;
+    max-height: 100%;
+    padding: 25px;
+}
+
+#madfish-funnel-page .madfish-card-plan-content {}
+
+#madfish-funnel-page .madfish-card-plan-content h3 {
+    color: #15202E;
+    font-weight: 400;
+    font-family: "gilroy-semibold" !important;
+    font-size: 28px;
+}
+
+#madfish-funnel-page .madfish-card-plan-content h2 {
+    color: #15202E;
+    font-weight: 400;
+    font-family: "gilroy-semibold" !important;
+    font-size: 44px;
+}
+
+#madfish-funnel-page .madfish-card-plan-content p {
+    color: #5E5E5E;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "gilroy-regular" !important;
+    margin-top: 12px;
+}
+
+.divDollar {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.divDollar p {
+    color: #5E5E5E;
+    font-weight: 400;
+    font-family: "gilroy-medium" !important;
+    font-size: 14px !important;
+}
+
+.hr_lise {
+    margin-top: 31px !important;
+}
+
+.hr_lise1 {
+    margin-top: 31px !important;
+}
+
+.anotherk h4 {
+    color: #5E5E5E;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "gilroy-medium" !important;
+    margin-top: 10px;
+}
+
+#madfish-funnel-page .madfish-card-features {}
+
+
+
+#madfish-funnel-page .madfish-card-list p {
+    font-family: "gilroy-regular" !important;
+    font-weight: 400 !important;
+    color: #15202E !important;
+    font-size: 16px !important;
+    line-height: 20px;
+
+}
+
+#madfish-funnel-page .madfish-card-list span {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin: 15px 0px;
+    max-width: 23em;
+    width: 100%;
+}
+
+.madfish-card-list h4 {
+    color: #5E5E5E;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "gilroy-medium" !important;
+    margin-top: 20px;
+}
+
+.hr_line {
+    border: 1px solid #15202E;
+    opacity: 15%;
+    margin-top: 50px;
+}
+
+#madfish-funnel-page .button-started {
+    padding-top: 25px;
+}
+
+#madfish-funnel-page .button-started button:hover {
+    background-color: #F79518;
+    color: #fff;
+    border: 1px solid;
+
+    border-image-source: linear-gradient(95.39deg, #898989 2.92%, #525252 100%);
+
+
+}
+
+#madfish-funnel-page .button-started button {
+    width: 333px;
+    padding: 16px 14px;
+    border: 1px solid #444444;
+    background-color: #fff;
+    color: #444444;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: Gilroy-Bold;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+
+}
+
+#madfish-funnel-page .spl-recommended {
+    width: 398px;
+    height: 30px;
+    left: -26px;
+    padding: 5px;
+    border-radius: 16px 16px 0px 0px;
+    background-color: #F79518;
+    position: relative;
+    bottom: 56px;
+}
+
+#madfish-funnel-page .spl-recommended p {
+    font-family: Gilroy-Medium;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #fff;
+    text-align: center;
+}
+
+#madfish-funnel-page .madfish-banner5 {}
+
+#madfish-funnel-page .madfish-container5 {
+    max-width: 1380px;
+    width: 100%;
+    padding: 20px 70px 50px;
+    display: block;
+    margin: auto;
+}
+
+#madfish-funnel-page .madfish-content5 {
+    display: flex;
+    align-items: baseline;
+    gap: 24px;
+    justify-content: center;
+    background-color: #D6D6D8;
+    width: 1240px;
+    max-width: 100%;
+    padding: 16px 24px;
+    border-radius: 10px;
+    border: 1px solid #D6D6D8;
+}
+
+#madfish-funnel-page .madfish-main-content5 {
+    border-right: 1px solid #bbb;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+#madfish-funnel-page .madfish-main-content5 h2 {
+    font-family: Gilroy-SemiBold;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.05em;
+    text-align: left;
+    color: #15202E;
+}
+
+#madfish-funnel-page .madfish-main-content5 p {
+    font-family: Gilroy-Regular;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #5E5E5E;
+    max-width: 26em;
+    width: 100%;
+}
+
+#madfish-funnel-page .features {
+    border-right: 1px solid #bbb;
+}
+
+#madfish-funnel-page .madfishpara {
+    display: flex;
+    justify-content: center;
+}
+
+#madfish-funnel-page .madfishpara p {
+    font-family: Gilroy-MediumItalic;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #15202E;
+    max-width: 45em;
+    width: 100%;
+    padding-top: 20px;
+}
+
+#madfish-funnel-page .madfishpara span {
+    font-family: Gilroy-MediumItalic;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: -0.02em;
+    text-align: center;
+}
+
+#madfish-funnel-page .madfish-banner6 {
+    background-color: #F6F6F6;
+}
+
+#madfish-funnel-page .madfish-container6 {
+    max-width: 1440px;
+    width: 100%;
+    padding: 70px 70px;
+    display: block;
+    margin: auto;
+}
+
+#madfish-funnel-page .madfish-content6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+
+#madfish-funnel-page .madfish-main-content6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 14px;
+}
+
+#madfish-funnel-page .madfish-main-content6 h2 {
+    font-family: Gilroy-Bold;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: -0.05em;
+    text-align: center;
+    color: #15202E;
+}
+
+#madfish-funnel-page .madfish-main-content6 span {
+    color: #F79518;
+    font-family: 'gilroy-medium';
+}
+
+#madfish-funnel-page .madfish-main-content6 p {
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #15202E;
+}
+
+#madfish-funnel-page .madfish-count {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    gap: 28px;
+}
+
+#madfish-funnel-page .madfish-number {}
+
+#madfish-funnel-page .madfish-number h2 {
+    font-family: Gilroy-Bold;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 80px;
+    letter-spacing: -0.4000000059604645px;
+    text-align: left;
+    color: #15202E;
+    border-left: 5px solid #F79518;
+    padding-left: 10px;
+
+}
+
+#madfish-funnel-page .madfish-number p::after {
+    position: absolute;
+    opacity: 85%;
+    color: #1B1B1BD9;
+    z-index: -1;
+    content: "";
+    inset: 0;
+}
+
+#madfish-funnel-page .madfish-number p {
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.2px;
+    letter-spacing: -0.07999999821186066px;
+    text-align: left;
+    position: relative;
+    isolation: isolate;
+}
+
+#madfish-funnel-page .madfish-container7 {
+    max-width: 1440px;
+    width: 100%;
+    padding: 40px 60px;
+    display: block;
+    margin: auto;
+}
+
+#madfish-funnel-page .madfish-content7 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+#madfish-funnel-page .madfish-main-content7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+#madfish-funnel-page .madfish-main-content7 h3 {
+    font-family: Gilroy-Medium;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: -0.05em;
+    color: #15202E;
+    text-align: center;
+}
+
+#madfish-funnel-page .madfish-main-content7 span {
+    color: #F79518;
+    font-family: 'gilroy-bold';
+}
+
+#madfish-funnel-page .madfish-main-content7 p {
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #15202E;
+    max-width: 60em;
+    width: 100%;
+}
+
+#madfish-funnel-page .madfish-marchant {}
+
+#madfish-funnel-page .madfish-merchant-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+#madfish-funnel-page .madfish-card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background-color: #fff;
+    border: 1px solid #E6E6E6;
+    width: 400px;
+    padding: 16px;
+}
+
+#madfish-funnel-page .madfish-card-content p {
+    font-family: Gilroy-RegularItalic;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    color: #15202E;
+}
+
+#madfish-funnel-page .name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#madfish-funnel-page .founder h3 {
+    font-family: Gilroy-Bold;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #15202E;
+}
+
+#madfish-funnel-page .founder p {
+    font-family: Gilroy-Regular;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #15202E;
+}
+
+#madfish-funnel-page .madfish-container8 {
+    max-width: 1440px;
+    width: 100%;
+    padding: 40px 60px;
+    display: block;
+    margin: auto;
+}
+
+#madfish-funnel-page .madfish-content8 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    background-color: #F6F6F6;
+    padding: 50px 50px 50px 50px;
+    border-radius: 20px;
+}
+
+#madfish-funnel-page .madfish-main-content8 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 18px;
+}
+
+#madfish-funnel-page .madfish-main-content8 h3 {
+    font-family: Gilroy-Medium;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: -0.05em;
+    color: #15202E;
+}
+
+#madfish-funnel-page .madfish-main-content8 span {
+    font-family: 'gilroy-bold';
+    color: #F79518;
+}
+
+#madfish-funnel-page .madfish-main-content8 p {
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: -0.02em;
+    color: #15202E;
+    max-width: 60em;
+    width: 100%;
+}
+
+#madfish-funnel-page .efforts-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+#madfish-funnel-page .efforts-icons img::after {
+    position: absolute;
+    inset: 0;
+    content: "";
+    opacity: 10%;
+    border: .78px solid #000;
+    z-index: -1;
+}
+
+#madfish-funnel-page .efforts-icons img {
+    background-color: #fff;
+    width: 77px;
+    height: 77px;
+    padding: 10px;
+    border-radius: 6px;
+    max-width: 100%;
+    position: relative;
+    isolation: isolate;
+    box-shadow: 0px 1.56px 3.89px 0px #9999991A;
+}
+
+#madfish-funnel-page .demo-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#madfish-funnel-page .demo-button button {
+    width: 190px;
+    padding: 12px 18px;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    font-family: Gilroy-Bold;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+}
+
+.butt-para p {
+    font-family: Gilroy-Regular;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.4px;
+    letter-spacing: -0.02em;
+    color: #15202E;
+}
+
+#madfish-funnel-page .madfish-banner9 {
+    background-image: url('./image/banner-images-mad.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#madfish-funnel-page .madfish-container9 {
+    max-width: 1440px;
+    width: 100%;
+    display: block;
+    padding: 50px 60px;
+    margin: auto;
+}
+
+#madfish-funnel-page .madfish-content9 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+#madfish-funnel-page .madfish-main-content9 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+#madfish-funnel-page .madfish-main-content9 h3 {
+    font-family: Gilroy-Medium;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: -0.05em;
+    color: #fff;
+    max-width: 15em;
+    width: 100%;
+    text-align: start;
+}
+
+#madfish-funnel-page .madfish-main-content9 span {
+    color: #F79518;
+    font-family: 'gilroy-bold';
+}
+
+#madfish-funnel-page .madfish-main-content9 p {
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: -0.02em;
+    color: #fff;
+    max-width: 36.6em;
+    width: 100%;
+    text-align: start;
+}
+
+#madfish-funnel-page .contact-form {
+    background-color: #fff;
+    border-radius: 12px;
+    width: 467px;
+    padding: 40px 16px;
+}
+
+#madfish-funnel-page .madfish-contact-heading {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#madfish-funnel-page .madfish-contact-heading h2 {
+    font-family: Gilroy-SemiBold;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.05em;
+    color: #15202E;
+}
+
+#madfish-funnel-page .madfish-contact-heading p {
+    font-family: Gilroy-Regular;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: #15202E;
+}
+
+#madfish-funnel-page .contact-input form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+#madfish-funnel-page .contact-input input {
+    width: 427px;
+    background-color: #f4f4f4;
+    padding: 12px;
+    border: 1px solid #E9E9E9;
+    outline: none;
+    border-radius: 5px;
+}
+
+#madfish-funnel-page .contact-input input::placeholder {
+    font-family: Gilroy-Regular;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.4px;
+    color: #7A7A7A;
+}
+
+#madfish-funnel-page .details {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+#madfish-funnel-page .col-placeholder::placeholder {
+    color: #191919;
+}
+
+.contact-button button {
+    width: 427px;
+    background-color: #F79518;
+    color: #fff;
+    cursor: pointer;
+    padding: 14px;
+    border-radius: 8px;
+    border: 1px solid #F79518;
+    font-family: Gilroy-Bold;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+}
+
+#current-platform {
+    width: 427px;
+    background-color: #f4f4f4;
+    padding: 12px;
+    border: 1px solid #E9E9E9;
+    outline: none;
+    border-radius: 5px;
+}
+
+#madfish-funnel-page .madfish-banner10 {
+    background-color: #EDD9BE;
+}
+
+#madfish-funnel-page .madfish-container10 {
+    max-width: 1440px;
+    width: 100%;
+    padding: 60px 40px;
+    display: block;
+    margin: auto;
+}
+
+#madfish-funnel-page .madfish-content10 {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+}
+
+#madfish-funnel-page .madfish-main-content11 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 35px;
+}
+
+#madfish-funnel-page .madfish-main-content11 img {
+    max-width: 304px;
+    width: 100%;
+}
+
+#madfish-funnel-page .madfish-main-content11 p {
+    font-family: Gilroy-Medium;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #444444;
+    max-width: 35em;
+    width: 100%;
+}
+
+#madfish-funnel-page .madfish-main-content11 strong {
+    font-family: Gilroy-Bold;
+    color: #15202E;
+    text-decoration: none !important;
+}
+
+#madfish-funnel-page .madfish-main-content11 a {
+    font-family: Gilroy-Medium;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #444444;
+
+}
+
+#madfish-funnel-page .madfish-copyright {
+    isolation: isolate;
+    position: relative;
+    width: 1200px;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 28px;
+    border-top: 1px solid #AD906F40;
+}
+
+#madfish-funnel-page .madfish-copyright p {
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #15202E;
+}
+
+
+/* section 3 */
+.banner-mad-3 {
+
+    background: #F6F6F6;
+    padding: 100px 100px;
+
+}
+
+.both-sec-part {
+
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+
+.ban3-connta {
+
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin: 0 auto;
+
+}
+
+.first_ban3cont {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+
+}
+
+.head-para-main-content {
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0px 135px;
+
+}
+
+.head-para-main-content h2 {
+
+    font-family: Gilroy-Medium;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: -0.05em;
+    text-align: center;
+    color: #15202E;
+    margin-bottom: 0px !important;
+
+}
+
+.head-para-main-content span {
+
+    font-family: Gilroy-Bold;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: -0.05em;
+    text-align: center;
+    color: #F79518;
+
+}
+
+.head-para-main-content p {
+
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #15202E;
+    margin-bottom: 0px !important;
+
+}
+
+.ban3_item1 {
+
+    max-width: 737px;
+    width: 100%;
+    /* height: 366px; */
+    gap: 48px;
+    overflow: hidden;
+    background: #FEF0D8;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    padding: 10px 20px 0px 10px;
+
+}
+.hhl{
+    background-color: #F6F6F6 !important;
+}
+.ban3_content {
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 23px;
+    padding-bottom: 20px;
+
+}
+
+.ban3_item1 h2 {
+
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #15202E;
+
+}
+
+.ban3_item1 p {
+
+    font-family: Gilroy-Regular;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #1B1B1BD9;
+
+}
+
+.ban3_item1 img {
+
+    max-width: 690px;
+    width: 100%;
+
+}
+
+.ban3_item2 {
+
+    display: flex;
+    flex-direction: column-reverse;
+    max-width: 479px;
+    width: 100%;
+
+}
+
+.ban3_item2 img {
+    background: #EDEEF9;
+    border-radius: 0px 0px 15px 15px;
+
+}
+
+.ban3_itemcontent {
+    background-color: #F3F4FF;
+    padding: 10px 16px;
+}
+
+.ban3_itemcontent h2 {
+
+    text-align: center !important;
+    font-family: Gilroy-SemiBold;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.05em;
+    text-align: left;
+    color: #101010;
+
+}
+
+.ban3_itemcontent p {
+
+    text-align: center;
+    font-family: Gilroy-Regular;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #5E5E5E;
+    margin-bottom: 2.5rem;
+
+}
+
+/* This section css ends here */
+
+.container-yes-it {
+    padding: 100px 100px 30px 100px;
+}
+
+.content-it {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 95px;
+}
+
+.right-side-part {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.content-with-svg {
+
+    border: 1px solid #EEEEEE;
+    background: #F6F6F6;
+    max-width: 536px;
+    width: 100%;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 24px 16px 24px 16px;
+
+}
+
+.content-with-svg h2 {
+
+    font-family: Gilroy-SemiBold;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: -0.05em;
+    color: #15202E;
+    margin-bottom: 0px !important;
+
+
+}
+
+.content-with-svg p {
+
+    font-family: 'gilroy-regular';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #010101;
+    margin-bottom: 0px !important;
+
+}
+
+.content-part-big-commerce h2 {
+
+    font-family: Gilroy-SemiBold;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 52.8px;
+    letter-spacing: -0.05em;
+    color: #15202E;
+    margin-bottom: 0px !important;
+
+}
+
+.content-part-big-commerce p {
+
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #010101;
+    margin-bottom: 0px !important;
+    max-width: 39em;
+    width: 100%;
+
+}
+
+.content-part-big-commerce {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.both-part-big-commerce {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.left-side-part {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.Image-under-it img {
+    max-width: 558px;
+    width: 100%;
+    /* margin-left: -100px; */
+}
+
+/* this section css ends here */
+.color-part-yes {
+    padding: 100px 100px 90px 100px;
+}
+
+.opposite-mad-funnel-part-two {
+    background: #F6F6F6;
+
+}
+
+.cont-col-svg-part {
+    border: 1px solid #EEEEEE !important;
+    background: #FFFFFF !important;
+
+}
+
+.left-side-image-part {
+    margin-left: -105px !important;
+}
+
+/* media query starts here */
+
+@media(max-width:1023px) {
+    .banner-mad-3 {
+        padding: 50px 20px;
+    }
+
+    .head-para-main-content {
+        padding: 0px 50px;
+    }
+}
+
+@media(max-width:999px) {
+    .first_ban3cont {
+        flex-direction: column;
+    }
+
+    .content-it{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+}
+@media(max-width:425px){
+    .head-para-main-content{
+        padding: 0px 10px;
+    }
+    .head-para-main-content h2{
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .head-para-main-content span{
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .color-part-yes {
+        padding: 50px 20px 50px 20px;
+    }
+    .container-yes-it {
+        padding: 50px 20px 50px 20px;
+    }
+}
+
+/* end section */
+@media(max-width: 1300px) {
+    #madfish-funnel-page .madfish-container4 {
+        padding: 30px 40px;
+    }
+
+    #madfish-funnel-page .madfish-card-main-plan {
+        width: 350px;
+        max-width: 100%;
+    }
+
+    #madfish-funnel-page .spl-recommended {
+        width: 350px;
+    }
+
+    #madfish-funnel-page .button-started {
+        display: flex;
+        justify-content: center;
+    }
+
+    #madfish-funnel-page .button-started button {
+        width: 280px;
+        max-width: 100%;
+        padding: 14px 20px;
+    }
+
+    #madfish-funnel-page .madfish-container7 {
+        padding: 40px 20px;
+    }
+
+    #madfish-funnel-page .madfish-card-content {
+        width: 350px;
+        max-width: 100%;
+    }
+
+
+}
+@media(max-width:1100px){
+    #madfish-funnel-page .madfish-card-content{
+        width: 300px;
+    }
+    #madfish-funnel-page .madfish-card-main-plan{
+        width: 300px;
+        max-width: 100%;
+    }
+    #madfish-funnel-page .spl-recommended{
+        width: 300px;
+    }
+}
+@media(max-width: 1024px) {
+    #madfish-funnel-page .madfish-main-header {
+        padding: 14px 25px;
+    }
+    #madfish-funnel-page .madfish-container2 {
+        padding: 60px 35px 0px 35px;
+    }
+
+    #madfish-funnel-page .madfish-card-main-plan {
+        height: 900px;
+    }
+
+    #madfish-funnel-page .madfish-container4 {
+        padding: 30px 24px;
+    }
+
+    #madfish-funnel-page .madfish-main-content4 h2 {
+        font-size: 30px;
+    }
+
+    #madfish-funnel-page .madfish-main-content4 p {
+        max-width: 48em;
+        width: 100%;
+    }
+
+    #madfish-funnel-page .madfish-container5 {
+        padding: 20px 40px 40px;
+    }
+
+    #madfish-funnel-page .button-started button {
+        width: 230px;
+    }
+
+    #madfish-funnel-page .madfish-content5 {
+        width: 100%;
+        gap: 18px;
+    }
+    #madfish-funnel-page .madfish-main-content3 h2{
+        font-size: 32px;
+        line-height: 40px;
+    }
+    #madfish-funnel-page .madfish-main-content3{
+        gap: 15px;
+    }
+    #madfish-funnel-page .madfish-container3{
+        padding: 30px 30px;
+    }
+    #madfish-funnel-page .madfish-cards-main{
+        gap: 24px;
+    }
+    #madfish-funnel-page .madfish-card-content3{
+        gap: 5px;
+    }
+    #madfish-funnel-page .madfish-card-content3 h2{
+        font-size: 18px;
+        line-height: 23px;
+    }
+    #madfish-funnel-page .madfish-card-plan-content h2{
+        font-size: 35px;
+    }
+   
+    #madfish-funnel-page .madfish-container6{
+        padding: 30px 40px;
+    }
+    #madfish-funnel-page .madfish-main-content6 h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    #madfish-funnel-page .madfish-number h2{
+        font-size: 40px;
+        line-height: 45px;
+    }
+    #madfish-funnel-page .madfish-main-content6 p{
+        max-width: 50em;
+        width: 100%;
+    }
+    #madfish-funnel-page .madfish-count{
+        gap: 0;
+    }
+    #madfish-funnel-page .madfish-main-content7 h3{
+        font-size: 32px;
+        line-height: 42px;
+    }
+    #madfish-funnel-page .madfish-main-content7 p{
+        max-width: 48em;
+    }
+    #madfish-funnel-page .madfish-merchant-card{
+        gap: 12px;
+    }
+    #madfish-funnel-page .madfish-card-content{
+        width: 300px;
+    }
+    #madfish-funnel-page .madfish-container8{
+        padding: 30px 40px;
+    }
+    #madfish-funnel-page .madfish-content8{
+        gap: 30px;
+        padding: 30px;
+    }
+    #madfish-funnel-page .madfish-main-content8 h3{
+        font-size: 34px;
+        line-height: 40px;
+    }
+    #madfish-funnel-page .efforts-flex{
+        gap: 30px;
+    }
+    #madfish-funnel-page .madfish-container9{
+        padding: 50px 40px;
+    }
+    #madfish-funnel-page .madfish-content9{
+        gap: 40px;
+        justify-content: center;
+    }
+    #madfish-funnel-page .contact-form{
+        width: 400px;
+        padding: 28px 16px;
+    }
+    #madfish-funnel-page .contact-input input{
+        width: 100%;
+    }
+    #current-platform{
+        width: 100%;
+    }
+    .contact-button button{
+        width: 370px;
+    }
+    #madfish-funnel-page .madfish-main-content9 h3{
+        font-size: 34px;
+        line-height: 42px;
+    }
+    #madfish-funnel-page .madfish-main-content9{
+        gap: 18px;
+    }
+    #madfish-funnel-page .madfish-main-content h1{
+        font-size: 45px;
+        line-height: 52px;
+    }
+    #madfish-funnel-page .madfish-container{
+        padding: 50px 50px;
+    }
+}
+@media(max-width:930px){
+    #madfish-funnel-page .madfish-copyright{
+        gap: 60px;
+    }
+    #madfish-funnel-page .madfish-header-logos img{
+        max-width: 160px;
+        width: 100%;
+    }
+    #madfish-funnel-page .madfish-main-content h1{
+        font-size: 36px;
+        line-height: 42px;
+    }
+    #madfish-funnel-page .madfish-main-content{
+        gap: 15px;
+    }
+    #madfish-funnel-page .madfish-cards-main{
+        flex-wrap: wrap;
+    }
+    #madfish-funnel-page .madfish-card-content3 {
+       width: 250px;
+    }
+    #madfish-funnel-page .madfish-card-plan{
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+    .hr_lise{
+        margin-top: 20px;
+    }
+    #madfish-funnel-page .madfish-content5{
+        flex-wrap: wrap;
+    }
+    #madfish-funnel-page .madfish-main-content5{
+        border: none;
+        align-items: center;
+    }
+    #madfish-funnel-page .madfish-main-content5 p{
+        text-align: center;
+    }
+    #madfish-funnel-page .features{
+        border: none;
+        align-items: center;
+    }
+ 
+    #madfish-funnel-page .madfish-card-list span{
+        margin: 5px 0;
+    }
+    #madfish-funnel-page .madfish-merchant-card{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    #madfish-funnel-page .madfish-container7{
+        padding: 30px 20px;
+    }
+    #madfish-funnel-page .madfish-content9{
+        flex-direction: column;
+    }
+    #madfish-funnel-page .madfish-main-content9 h3{
+        text-align: center;
+    }
+    #madfish-funnel-page .madfish-main-content9 p{
+        text-align: center;
+    }
+    #madfish-funnel-page .contact-form{
+        width: 100%;
+    }
+    #madfish-funnel-page .slider-client-images{
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+}
+@media(max-width:670px){
+    #madfish-funnel-page .madfish-header-logos{
+        gap: 60px;
+    }
+    #madfish-funnel-page .madfish-header-logos img{
+        max-width: 140px;
+    }
+    #madfish-funnel-page .madfish-count{
+        flex-wrap: wrap;
+        gap: 24px;
+    }   
+    #madfish-funnel-page .madfish-main-content4 h2{
+        font-size: 25px;
+        line-height: 40px;
+    }
+    #madfish-funnel-page .madfish-card-main-plan{
+        height: 100%;
+    }
+    #madfish-funnel-page .madfish-main-content8 h3{
+        font-size: 28px;
+        line-height: 35px;
+    }
+    #madfish-funnel-page .efforts-flex{
+        flex-wrap: wrap;
+    }
+    #madfish-funnel-page .madfish-main-content11{
+        gap: 15px;
+    }
+    #madfish-funnel-page .madfish-content10{
+        gap: 30px;
+    }
+
+}
+@media(max-width:550px){
+    #madfish-funnel-page .madfish-header-logos img{
+        max-width: 100px;
+    }
+    #madfish-funnel-page .madfish-main-content h1{
+        font-size: 30px;
+        line-height: 36px;
+    }
+    #madfish-funnel-page .madfish-main-content3 h2{
+        font-size: 26px;
+        line-height: 35px;
+    }
+    #madfish-funnel-page .madfish-content3{
+        gap: 26px;
+    }
+    #madfish-funnel-page .madfish-main-content9 h3{
+        font-size: 26px;
+        line-height: 36px;
+    }
+    #madfish-funnel-page .madfish-copyright p{
+        text-align: center;
+    }
+    .contact-button button{
+        max-width: 100%;
+    }
+
+
+}
+@media(max-width:450px){
+    #madfish-funnel-page .madfish-main-content h1{
+        font-size: 30px;
+        line-height: 38px;
+    }
+    .head-para-main-content h2{
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .head-para-main-content span{
+        font-size: 34px;
+        line-height: 40px;
+    }
+    .head-para-main-content{
+        padding: 0;
+    }
+    .content-part-big-commerce h2{
+        font-size: 36px;
+        line-height: 42px;
+    }
+    .container-yes-it{
+        padding: 40px 36px 30px 36px;
+    }
+    #madfish-funnel-page .madfish-card-main-plan{
+        width: 100%;
+    }
+    #madfish-funnel-page .madfish-card-content{
+        width: 100%;
+    }
+    #madfish-funnel-page .madfish-content8{
+        padding: 10px;
+    }
+    #madfish-funnel-page .madfish-container8{
+        padding: 30px;
+    }
+    #madfish-funnel-page .madfish-content8{
+        gap: 20px;
+    }
+    #madfish-funnel-page .madfish-container10{
+        padding: 40px;
+    }
+}
+@media(max-width:425px){
+    #madfish-funnel-page .madfish-header-logos{
+        gap: 40px;
+    }
+    #madfish-funnel-page .madfish-header-logos img{
+        max-width: 90px;
+    }
+    #madfish-funnel-page .madfish-main-content p{
+        font-size: 16px ;
+        line-height: 24px;
+    }
+
+}
+@media(max-width:350px){
+    #madfish-funnel-page .madfish-header-logos{
+        gap: 25px;
+    }
+}
+@media(max-width:320px){
+    #madfish-funnel-page .madfish-header-logos{
+        gap: 18px;
+    }
+    #madfish-funnel-page .madfish-main-content h1{
+        font-size: 24px;
+        line-height: 30px;
+    }
+    #madfish-funnel-page .madfish-main-content{
+        gap: 8px;
+    }
+    #madfish-funnel-page .madfish-container5{
+        padding: 20px;
+    }
+    #madfish-funnel-page .madfish-container8{
+        padding: 20px;
+    }
+    #madfish-funnel-page .madfish-main-content8 h3 {
+        font-size: 23px;
+        line-height: 30px;
+    }
+    .butt-para p{
+        text-align: center;
+    }
+    #madfish-funnel-page .madfish-content9{
+        gap: 30px;
+    }
+    #madfish-funnel-page .madfish-container9{
+        padding: 30px 20px;
+    }
+}
